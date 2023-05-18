@@ -4,9 +4,14 @@ import App from './App.tsx'
 
 import GlobalStyle from './styles/global.ts'
 
+import { ThemeProvider } from 'styled-components'
+import { defaultTheme } from './styles/theme.ts'
+
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
-    <GlobalStyle />
-    <App />
+    <ThemeProvider theme={defaultTheme}>
+      <GlobalStyle />
+      <App />
+    </ThemeProvider>
   </React.StrictMode>,
 )
