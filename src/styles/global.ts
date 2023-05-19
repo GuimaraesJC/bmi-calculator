@@ -26,6 +26,13 @@ const GlobalStyle = createGlobalStyle`
   a, button {
     cursor: pointer;
   }
+
+  body {
+    background-color: ${({ theme }) => theme.colors.white};
+    height: 100vh;
+    width: 90rem;
+    margin: 0 auto;
+  }
 `;
 
 export default GlobalStyle;
