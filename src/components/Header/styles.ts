@@ -1,8 +1,6 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.header`
-  --info-container-left-margin: 1.5rem;
-
   display: grid;
   grid-template-columns: 61.125rem 1fr;
   width: 79.75rem;
@@ -12,7 +10,7 @@ export const Wrapper = styled.header`
 export const InfoContainer = styled.div`
   width: 61.125rem;
   height: inherit;
-  margin-left: var(--info-container-left-margin);
+  margin-left: 1.5rem;
   border-radius: 0 0 35px 35px;
   background: linear-gradient(290.1deg, #D6E6FE 0%, rgba(214, 252, 254, 0) 100%);
   position: relative;
