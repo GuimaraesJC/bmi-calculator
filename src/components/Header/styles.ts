@@ -32,3 +32,9 @@ export const CalculatorContainer = styled.div`
   box-shadow: 16px 32px 56px rgba(143, 174, 207, 0.25);
   border-radius: 1rem;
 `
+
+export const TextContainer = styled.div`
+  max-width: 29rem;
+  margin-left: 7.25rem;
+  margin-top: 16.625rem;
+`
