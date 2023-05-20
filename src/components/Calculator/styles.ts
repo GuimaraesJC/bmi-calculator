@@ -18,6 +18,10 @@ export const UnitSelectionContainer = styled.div`
   gap: 1.5rem;
 `
 
-export const InputsContainer = styled.div``
+export const InputsContainer = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+`
 
 export const ResultContainer = styled.div``

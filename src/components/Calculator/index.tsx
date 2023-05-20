@@ -1,5 +1,6 @@
 import Text from '../Text'
 import RadioInput from '../RadioInput'
+import Input from '../Input'
 
 import * as S from './styles'
 
@@ -14,7 +15,8 @@ function Calculator() {
         <RadioInput label="Imperial" name="system" />
       </S.UnitSelectionContainer>
       <S.InputsContainer>
-        Inputs
+        <Input label="Height" unit="cm" />
+        <Input label="Weight" unit="kg" />
       </S.InputsContainer>
       <S.ResultContainer>
         Results
