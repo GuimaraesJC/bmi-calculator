@@ -5,7 +5,7 @@ interface TextProps {
 }
 
 export const StyledText = styled.p<TextProps>`
-  color: ${({ theme }) => theme.colors.gunmetal};
+  color: ${({ theme, color }) => color ? color : theme.colors.gunmetal};
 
   ${({ type, theme }) => {
     switch (type) {
