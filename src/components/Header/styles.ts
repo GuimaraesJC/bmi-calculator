@@ -14,6 +14,7 @@ export const InfoContainer = styled.div`
   border-radius: 0 0 35px 35px;
   background: linear-gradient(290.1deg, #D6E6FE 0%, rgba(214, 252, 254, 0) 100%);
   position: relative;
+  z-index: -1;
 
   .logo {
     position: absolute;
@@ -23,18 +24,16 @@ export const InfoContainer = styled.div`
 `
 
 export const CalculatorContainer = styled.div`
-  background-color: white;
-  width: 564px;
-  height: 484px;
   margin-left: -16.625rem;
   margin-top: 10.375rem;
-  z-index: 1;
-  box-shadow: 16px 32px 56px rgba(143, 174, 207, 0.25);
-  border-radius: 1rem;
 `
 
 export const TextContainer = styled.div`
   max-width: 29rem;
   margin-left: 7.25rem;
   margin-top: 16.625rem;
+
+  .text-info {
+    margin-top: 2.25rem;
+  }
 `
