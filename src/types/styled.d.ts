@@ -9,5 +9,16 @@ declare module 'styled-components' {
       borders: string;
       white: string;
     };
+    text: {
+      fontWeight: {
+        regular: number;
+        semibold: number;
+      },
+      lineHeight: {
+        heading: string;
+        body: string;
+      },
+      letterSpacing: string
+    }
   }
 }

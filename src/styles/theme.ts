@@ -8,6 +8,17 @@ const defaultTheme: DefaultTheme = {
     borders: '#D8E2E7',
     white: '#fff',
   },
+  text: {
+    fontWeight: {
+      regular: 400,
+      semibold: 600
+    },
+    lineHeight: {
+      heading: '110%',
+      body: '150%'
+    },
+    letterSpacing: '-0.05em'
+  }
 };
 
 export { defaultTheme };
