@@ -10,7 +10,7 @@ function Calculator() {
         Enter your details below
       </Text>
       <S.UnitSelectionContainer>
-        <RadioInput label="Metric" name="system" />
+        <RadioInput label="Metric" name="system" checked />
         <RadioInput label="Imperial" name="system" />
       </S.UnitSelectionContainer>
       <S.InputsContainer>
