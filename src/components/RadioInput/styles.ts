@@ -20,6 +20,10 @@ export const Input = styled.input`
     place-content: center;
   }
 
+  &[type="radio"]:hover {
+    border-color: ${({ theme }) => theme.colors.blue};
+  }
+
   &[type="radio"]:checked {
     border: none;
   }
