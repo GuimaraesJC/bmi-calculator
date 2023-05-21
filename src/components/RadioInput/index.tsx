@@ -6,13 +6,26 @@ import * as S from './styles'
 interface RadioInputProps {
   label: string
   name: string
-  checked?: boolean
+  onClick: () => void
+  defaultChecked?: boolean
 }
 
-function RadioInput({ label, name, checked }: RadioInputProps) {
+function RadioInput(
+  {
+    label,
+    name,
+    onClick,
+    defaultChecked,
+  }: RadioInputProps
+) {
   return (
     <S.Label>
-      <S.Input type="radio" name={name} checked={checked} />
+      <S.Input
+        type="radio"
+        name={name}
+        onClick={onClick}
+        defaultChecked={defaultChecked}
+      />
       <Text renderAs={React.Fragment} type="BodyM-Bold">
         {label}
       </Text>
