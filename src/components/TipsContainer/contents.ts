@@ -1,6 +1,6 @@
-import iconEating from '../../../assets/images/icon-eating.svg'
-import iconExercise from '../../../assets/images/icon-exercise.svg'
-import iconSleep from '../../../assets/images/icon-sleep.svg'
+import iconEating from '../../assets/images/icon-eating.svg'
+import iconExercise from '../../assets/images/icon-exercise.svg'
+import iconSleep from '../../assets/images/icon-sleep.svg'
 
 const contents = {
   eating: {

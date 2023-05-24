@@ -1,6 +1,6 @@
 import Tip from './Tip'
 
-import contents from './Tip/contents'
+import contents from './contents'
 
 import * as S from './styles'
 
