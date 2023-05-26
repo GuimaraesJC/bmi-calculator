@@ -24,8 +24,7 @@ export const InfoContainer = styled.div`
 `
 
 export const CalculatorContainer = styled.div`
-  margin-left: -16.625rem;
-  margin-top: 10.375rem;
+  transform: translate(-16.625rem, 10.375rem);
 `
 
 export const TextContainer = styled.div`
