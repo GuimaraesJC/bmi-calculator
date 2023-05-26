@@ -6,7 +6,7 @@ import * as S from './styles'
 interface RadioInputProps {
   label: string
   name: string
-  onClick: () => void
+  onChange: () => void
   defaultChecked?: boolean
 }
 
@@ -14,7 +14,7 @@ function RadioInput(
   {
     label,
     name,
-    onClick,
+    onChange,
     defaultChecked,
   }: RadioInputProps
 ) {
@@ -23,7 +23,7 @@ function RadioInput(
       <S.Input
         type="radio"
         name={name}
-        onClick={onClick}
+        onChange={onChange}
         defaultChecked={defaultChecked}
       />
       <Text renderAs={React.Fragment} type="BodyM-Bold">

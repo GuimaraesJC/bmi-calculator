@@ -20,13 +20,13 @@ function Calculator() {
         <RadioInput
           label="Metric"
           name="system"
-          onClick={() => setIsMetric(true)}
+          onChange={() => setIsMetric(true)}
           defaultChecked
         />
         <RadioInput
           label="Imperial"
           name="system"
-          onClick={() => setIsMetric(false)}
+          onChange={() => setIsMetric(false)}
         />
       </S.UnitSelectionContainer>
       <S.InputsContainer>
