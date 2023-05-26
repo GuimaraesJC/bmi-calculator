@@ -5,6 +5,7 @@ import contents from './contents'
 
 import * as S from './styles'
 import { defaultTheme } from '../../styles/theme'
+import curvedLineRight from '../../assets/images/pattern-curved-line-right.svg'
 
 function Limitations() {
   return (
@@ -24,6 +25,12 @@ function Limitations() {
           the measurement may not be beneficial to use.
         </Text>
       </S.TextContainer>
+
+      <img
+        className="curved-line-right"
+        src={curvedLineRight}
+        alt="Decorative curved line"
+      />
       <S.LimitationsContainer>
         <LimitationItem className="gender" info={contents.gender} />
         <LimitationItem className="age" info={contents.age} />

@@ -8,6 +8,12 @@ export const Wrapper = styled.section`
   margin: 7.5rem auto;
 
   position: relative;
+
+  .curved-line-right {
+    position: absolute;
+    left: 10.3125rem;
+    top: 15.6875rem;
+  }
 `
 
 export const TextContainer = styled.div`
