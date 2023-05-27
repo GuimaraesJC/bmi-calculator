@@ -4,7 +4,7 @@ import { StyledText } from './styles';
 
 interface TextProps {
   type: 'HeadingXL' | 'HeadingL' | 'HeadingM' | 'HeadingS' | 'BodyM' | 'BodyM-Bold' | 'BodyS'
-  renderAs: keyof JSX.IntrinsicElements | typeof React.Fragment
+  renderAs: keyof JSX.IntrinsicElements
   color?: string
   className?: string
   children: string

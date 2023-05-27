@@ -1,4 +1,3 @@
-import React from 'react'
 import Text from '../Text'
 
 import * as S from './styles'
@@ -26,7 +25,7 @@ function RadioInput(
         onChange={onChange}
         defaultChecked={defaultChecked}
       />
-      <Text renderAs={React.Fragment} type="BodyM-Bold">
+      <Text renderAs="span" type="BodyM-Bold">
         {label}
       </Text>
     </S.Label>
