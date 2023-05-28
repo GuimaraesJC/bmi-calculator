@@ -6,9 +6,11 @@ import { defaultTheme } from '../../styles/theme'
 interface InputProps {
   label?: string
   unit?: string
+  onChange?: (event: React.ChangeEvent<HTMLInputElement>) => void
+  value?: string
 }
 
-function Input({ label, unit }: InputProps) {
+function Input({ label, unit, onChange, value }: InputProps) {
   return (
     <S.Wrapper>
       <Text
@@ -18,7 +20,12 @@ function Input({ label, unit }: InputProps) {
       >
         {label ? label : ''}
       </Text>
-      <S.Input type="number" placeholder="0" />
+      <S.Input
+        type="number"
+        placeholder="0"
+        onChange={onChange}
+        value={value}
+        />
       <S.Unit
         renderAs="span"
         type="HeadingM"

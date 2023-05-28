@@ -25,15 +25,15 @@ export const InputsContainer = styled.div`
 `
 
 interface ResultContainerProps {
-  hasResult: boolean
+  $hasResult: boolean
 }
 
 export const ResultContainer = styled.div<ResultContainerProps>`
   width: 100%;
-  height: ${({ hasResult }) => hasResult ? '10.375rem' : '8.125rem'};
-  display: ${({ hasResult }) => hasResult ? 'grid' : 'block'};
+  height: ${({ $hasResult }) => $hasResult ? '10.375rem' : '8.125rem'};
+  display: ${({ $hasResult }) => $hasResult ? 'grid' : 'block'};
 
-  ${({ hasResult }) => hasResult && `
+  ${({ $hasResult }) => $hasResult && `
     grid-template-columns: 1fr 1fr;
     gap: 1.5rem;
     align-items: center;
